@@ -1,0 +1,32 @@
+body{
+    background-image: url(/clock/media/world.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(5px);
+    background-color: hsl(0, 0%, 100%, 0.1);
+    width: 100%;
+}
+
+#main{
+    left: 10px;
+    top: 10px;
+    position: absolute;
+}
