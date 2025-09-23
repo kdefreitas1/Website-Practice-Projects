@@ -69,5 +69,6 @@ body{
 
 #main{
     position: absolute;
-    left: 10px;
+    left: 8px;
+    top: 8px;
 }
